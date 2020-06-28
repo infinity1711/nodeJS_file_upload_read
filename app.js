@@ -51,8 +51,7 @@ app.post("/uploadDoc", function (req, res) {
     // error occurs, the file would not be uploaded! 
 
     upload(req, res, function (err) {
-       
-        console.log(req.file)
+ 
         if (err) {
             // ERROR occured (here it can be occured due 
             // to uploading image of size greater than 
